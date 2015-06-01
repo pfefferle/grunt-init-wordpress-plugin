@@ -1,0 +1,6 @@
+{
+  "name.php-template": "{%= name %}.php",
+  "languages/name.pot": "languages/{%= name %}.pot",
+  ".editorconfig-template": ".editorconfig",
+  "phpcs.xml-template": "phpcs.xml"
+}

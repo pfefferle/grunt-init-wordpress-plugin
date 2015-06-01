@@ -1,0 +1,24 @@
+<?php
+/*
+ Plugin Name: {%= name %}
+ Plugin URI: {%= homepage %}
+ Description: {%= description %}
+ Author: {%= author_name %}
+ Author URI: {%= author_url %}
+ Version: {%= version %}
+ Text Domain: {%= name %}
+*/
+
+add_action( 'init', array( '{%= class_name %}Plugin', 'init' ) );
+
+/**
+ * {%= class_name %} class
+ *
+ * @author Matthias Pfefferle
+ */
+class {%= class_name %}Plugin {
+
+	public static funtion init() {
+
+	}
+}
