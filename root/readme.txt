@@ -1,4 +1,4 @@
-=== {%= name %} ===
+=== {%= title %} ===
 
 Contributors: {%= author_name %}
 Donate link: {%= author_url %}
